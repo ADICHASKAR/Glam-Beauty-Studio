@@ -1,0 +1,94 @@
+.mainContainer {
+    width: 80%;
+    height: 500px;
+    background-color: aqua;
+    display: flex;
+    margin: auto;
+
+
+}
+
+.btncount {
+    background-color: #42574f;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+
+.btnaddto {
+    background-color: #42574f;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+
+.imgContainer {
+    width: 50%;
+    height: 500px;
+    background-color: blueviolet;
+}
+
+.mainImg {
+    width: 100%;
+    height: 300px;
+}
+
+.mainImg img {
+    width: 100%;
+    height: 100%;
+}
+
+.downImage {
+    width: 100%;
+    height: 200px;
+    display: flex;
+}
+
+.sImg {
+    width: 33.33%;
+    height: 200px;
+}
+
+.sImg img {
+    height: 100%;
+    width: 100%;
+}
+
+
+.descContainer {
+    width: 50%;
+    /* height: 500px; */
+    display: flex;
+    /* background-color: white; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background: hsla(186, 33%, 94%, 1);
+
+    background: linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+
+    background: -moz-linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+
+    background: -webkit-linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#ebf4f5", endColorstr="#b5c6e0", GradientType=1);
+    
+
+}
